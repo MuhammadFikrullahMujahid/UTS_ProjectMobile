@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fikrullah.applefikri">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_new_launcher"
+        android:label="Apple Fikri"
+        android:roundIcon="@mipmap/ic_new_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CourseFikri">
+        <activity
+            android:name="com.fikrullah.applefikri.customer"
+            android:exported="false" />
+        <activity
+            android:name="com.fikrullah.applefikri.about"
+            android:exported="false" />
+        <activity
+            android:name="com.fikrullah.applefikri.watch8"
+            android:exported="false" />
+        <activity
+            android:name="com.fikrullah.applefikri.macm1"
+            android:exported="false" />
+        <activity
+            android:name="com.fikrullah.applefikri.checkout"
+            android:exported="false" />
+        <activity
+            android:name="com.fikrullah.applefikri.login"
+            android:exported="false" />
+        <activity
+            android:name="com.fikrullah.applefikri.iphone13"
+            android:exported="false" />
+        <activity
+            android:name="com.fikrullah.applefikri.mulai"
+            android:exported="false" />
+        <activity
+            android:name="com.fikrullah.applefikri.menu"
+            android:exported="false" />
+        <activity
+            android:name="com.fikrullah.applefikri.home"
+            android:exported="false" />
+        <activity
+            android:name="com.fikrullah.applefikri.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
